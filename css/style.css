@@ -262,6 +262,10 @@ body{
     margin-top: auto;
 }
 
+.about__img{
+    position: relative;
+}
+
 .about__link{
     position: absolute;
     right: 68px;
@@ -278,9 +282,7 @@ body{
 
 }
 
-.about__img{
-    position: relative;
-}
+
 
 .activities__buttons-book{
     align-self: start;
@@ -540,6 +542,39 @@ body{
 
 }
 
+@media(max-width: 1500px) {
+    .about__img{
+        flex-basis: 50%;
+    } 
+
+    .img__about{
+        width: 100%;
+    }
+}
+
+@media(max-width:1280px) {
+    .about__title{
+        margin-bottom: 20px;
+    }
+
+    .about__img{
+        align-self: flex-end;
+    }
+
+    .about__content{
+        flex-basis:100%;
+        max-width: 100%;
+    }
+
+    .about__inner{
+        flex-wrap: wrap;
+    }
+
+    .about__img{
+        flex-basis: 100%;
+    }
+}
+
 
 @media(max-width: 1000px) {
     .menu__btn{
@@ -593,40 +628,3 @@ body{
 
 }
 
-@media(max-width: 480px ) {
-    /* .header__buttons-book,
-    .header__buttons-activities{
-        font-size: 24px;
-    } */
-
-    .title-text{
-        font-size: 18px;
-        padding: 10px 16px;
-    }
-
-    .header__news-box{
-        padding: 33px 20px;
-    }
-
-    .header__buttons a{
-        font-size: 24px;
-        width: 100%;
-        text-align: center;
-    }
-
-    .header__butons{
-        flex-wrap: wrap;
-    } 
-
-    .header__info-item{
-        font-size: 14px;
-    }
-
-    .header__info-list{
-        gap: 10px;
-    } 
-
-    .title-img{
-        margin-top: 15px;
-    }
-}
