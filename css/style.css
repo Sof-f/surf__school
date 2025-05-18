@@ -628,3 +628,65 @@ body{
 
 }
 
+@media(max-width: 480px ) {
+    /* .header__buttons-book,
+    .header__buttons-activities{
+        font-size: 24px;
+    } */
+
+    .title-text{
+        font-size: 18px;
+        padding: 10px 16px;
+    }
+
+    .header__news-box{
+        padding: 33px 20px;
+    }
+
+    .header__buttons a{
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__butons{
+        flex-wrap: wrap;
+    } 
+
+    .header__info-item{
+        font-size: 14px;
+    }
+
+    .header__info-list{
+        gap: 10px;
+    } 
+
+    .about__img{
+        font-size: 44px;
+        line-height: 58px;
+    }
+
+    .about__subtitle{
+        margin-bottom: 10px;
+    }
+
+    .about__item{
+        font-size: 19px;
+    }
+
+    .about__text{
+        margin-bottom: 15px;
+        padding-top: 20px;
+    }
+
+    .about{
+        margin-bottom: 65px;
+    }
+
+    .about__link{
+        right: 36px;
+        bottom: 46px;
+        font-size: 29px;
+        line-height: 37px;
+    }
+}
