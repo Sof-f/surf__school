@@ -88,6 +88,7 @@ body{
     width: 100%;
     position: relative;
     z-index: -1;
+    /* margin-top: 20px; */
 }
 
 
@@ -615,7 +616,7 @@ body{
 
     .header__butons{
         flex-wrap: wrap;
-    }
+    } 
 
     .header__info-item{
         font-size: 14px;
@@ -623,5 +624,9 @@ body{
 
     .header__info-list{
         gap: 10px;
+    } 
+
+    .title-img{
+        margin-top: 15px;
     }
 }
