@@ -704,11 +704,19 @@ body{
 
     .footer__descriptions{
         flex-direction: column;
-        gap: 20px;
+    
+    }
+
+    .footer__description-item{
+        margin-bottom: 20px;
     }
 
     .footer__description-more{
         margin: 10px;
+    }
+
+    .footer__bottom{
+        flex-direction: column;
     }
 }
 
@@ -785,6 +793,10 @@ body{
     .activities__title{
         font-size: 36px;
         line-height: 54px;
+    }
+    
+    .footer__top-content{
+        flex-direction: column-reverse;
     }
 
     .review__title{
